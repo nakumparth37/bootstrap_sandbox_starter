@@ -88,25 +88,27 @@
     <!--#################START HERE#####################-->
 
     <!-- MODAL TRIGGER -->
-    <button>Launch Modal</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch Modal</button>
 
     <!-- MODAL -->
-    <div>
-      <div>
-        <div>
-          <div>
-            <h5>Modal Title</h5>
-            <button>&times;</button>
+    <div class="modal fade"  id="exampleModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde veniam harum magnam molestias dignissimos omnis
-            architecto, quod, obcaecati dolorum debitis dolore porro qui, iusto quo accusantium voluptates pariatur illo.
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, necessitatibus ipsa. Sequi quo, accusamus suscipit, sapiente nihil magnam officia maiores laudantium consequuntur voluptate beatae porro soluta ut voluptas perspiciatis dicta!
           </div>
-          <div>
-            <button>Close</button>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
+    </div>
     </div>
 
     <br>
